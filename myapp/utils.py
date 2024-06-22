@@ -1,0 +1,1 @@
+from socialtalkBE.utils import insert_sample_users

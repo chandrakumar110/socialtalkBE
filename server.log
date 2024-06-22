@@ -1,0 +1,1474 @@
+WARNING:django.request:Unauthorized: /login/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Unauthorized: /login/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+WARNING:django.request:Bad Request: /signup/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+WARNING:django.request:Bad Request: /signup/
+WARNING:django.request:Bad Request: /signup/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+WARNING:django.request:Bad Request: /signup/
+WARNING:django.request:Bad Request: /signup/
+WARNING:django.request:Bad Request: /signup/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Unauthorized: /login/
+WARNING:django.request:Not Found: /createPost/
+WARNING:django.request:Not Found: /createPost
+ERROR:django.request:Internal Server Error: /createpost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+ERROR:django.request:Internal Server Error: /createpost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+ERROR:django.request:Internal Server Error: /createpost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type TypeError is not JSON serializable
+WARNING:django.request:Bad Request: /createpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /createpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /createpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+WARNING:django.request:Unauthorized: /login/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Bad Request: /signup/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /purchases/
+WARNING:django.request:Not Found: /purchases/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /home/
+WARNING:django.request:Not Found: /purchases/
+WARNING:django.request:Not Found: /purchases/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Unauthorized: /createpost/
+WARNING:django.request:Bad Request: /commentpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+WARNING:django.request:Bad Request: /commentpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+WARNING:django.request:Bad Request: /commentpost/
+WARNING:django.request:Bad Request: /commentpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\migrations\0005_comments_hashtags.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\migrations\0005_comments_hashtags.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /searchuser/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\search_user_views.py", line 50, in post
+    user_queryset = CustomUser.objects.filter(username_icontains = username).order_by('username')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1416, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1435, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1309, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1135, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1562, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'username_icontains' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, mobile_number, password, user_permissions, user_type, username
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+WARNING:django.request:Unauthorized: /createpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Unauthorized: /searchuser/
+ERROR:django.request:Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\posts_views.py", line 69, in get
+    return JsonResponse({'posts': all_posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\http\response.py", line 605, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\serializers\json.py", line 105, in default
+    return super().default(o)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ImageFieldFile is not JSON serializable
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\posts_views.py", line 72, in get
+    post_data['comments']['username'] = comment.username
+                                        ^^^^^^^^^
+AttributeError: 'Comments' object has no attribute 'u'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\posts_views.py", line 74, in get
+    post_data['comments'].add(comment_info)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'add'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /posts/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\posts_views.py", line 74, in get
+    post_data['comments'].add(comment_info)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'add'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /deletepost/
+WARNING:django.request:Bad Request: /deletepost/
+ERROR:django.request:Internal Server Error: /deletepost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\delete_post_views.py", line 63, in delete
+    if user_name !=post_to_delete.username:
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'username'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /deletepost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\delete_post_views.py", line 59, in delete
+    if user_name !=post_data.username:
+                   ^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'username'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+WARNING:django.request:Not Found: /deletepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /deletepost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\delete_post_views.py", line 61, in delete
+    if user_name !=post_data.username:
+                   ^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'username'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /deletepost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\delete_post_views.py", line 63, in delete
+    if user_name !=post_data.username:
+                   ^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'username'
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /deletepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /deletepost/
+WARNING:django.request:Bad Request: /signup/
+WARNING:django.request:Unauthorized: /allposts/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Bad Request: /deletecomment/
+WARNING:django.request:Bad Request: /deletecomment/
+WARNING:django.request:Bad Request: /deletecomment/
+WARNING:django.request:Not Found: /deletecomment/
+WARNING:django.request:Bad Request: /deletecomment/
+WARNING:django.request:Not Found: /deletecomment/
+WARNING:django.request:Unauthorized: /allposts/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+ERROR:django.request:Internal Server Error: /searchcaption/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ValueError is not JSON serializable
+WARNING:django.request:Unauthorized: /searchcaption/
+ERROR:django.request:Internal Server Error: /searchcaption/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ValueError is not JSON serializable
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /searchcaption/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ValueError is not JSON serializable
+ERROR:django.request:Internal Server Error: /searchhashtag/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py", line 48, in post
+    hashtag_queryset = Hashtags.objects.filter(hashtag__icontains = hashtag)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1416, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1435, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1370, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1221, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR:django.request:Internal Server Error: /searchhashtag/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py", line 48, in post
+    hashtag_queryset = Hashtags.objects.filter(hashtag__icontains = hashtag)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1416, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1435, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1370, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1221, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+WARNING:django.request:Not Found: /deleteuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Unauthorized: /login/
+WARNING:django.request:Unauthorized: /updateuser/
+WARNING:django.request:Unauthorized: /updateuser/
+WARNING:django.request:Bad Request: /updateuser/
+WARNING:django.request:Bad Request: /updateuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+WARNING:django.request:Unauthorized: /login/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+WARNING:django.request:Unauthorized: /login/
+WARNING:django.request:Unauthorized: /login/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+WARNING:django.request:Unauthorized: /createpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\comment_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /commentpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\create_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_comment_views.py changed, reloading.
+WARNING:django.request:Not Found: /deletecomment/
+WARNING:django.request:Bad Request: /deletecomment/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+WARNING:django.request:Not Found: /deletepost/
+WARNING:django.request:Bad Request: /deletepost/
+WARNING:django.request:Bad Request: /deletepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_user_views.py changed, reloading.
+WARNING:django.request:Bad Request: /deleteuser/
+WARNING:django.request:Bad Request: /deleteuser/
+WARNING:django.request:Unauthorized: /createpost/
+WARNING:django.request:Unauthorized: /createpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\posts_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\users_views.py changed, reloading.
+WARNING:django.request:Bad Request: /searchcaption/
+WARNING:django.request:Bad Request: /searchcaption/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+WARNING:django.request:Bad Request: /searchcaption/
+WARNING:django.request:Bad Request: /searchcaption/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_caption_views.py changed, reloading.
+WARNING:django.request:Bad Request: /searchcaption/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_hashtag_views.py changed, reloading.
+WARNING:django.request:Bad Request: /searchhashtag/
+WARNING:django.request:Bad Request: /searchhashtag/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+WARNING:django.request:Bad Request: /searchuser/
+WARNING:django.request:Bad Request: /searchuser/
+WARNING:django.request:Bad Request: /searchuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatecomment/
+WARNING:django.request:Bad Request: /updatecomment/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatecomment/
+WARNING:django.request:Bad Request: /updatecomment/
+WARNING:django.request:Unauthorized: /commentpost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_comment_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updatepost/
+WARNING:django.request:Bad Request: /updatepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updateuser/
+WARNING:django.request:Bad Request: /updateuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updateuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\update_user_views.py changed, reloading.
+WARNING:django.request:Bad Request: /updateuser/
+WARNING:django.request:Bad Request: /updateuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+WARNING:django.request:Bad Request: /updateuser/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\delete_post_views.py changed, reloading.
+WARNING:django.request:Unauthorized: /deletepost/
+WARNING:django.request:Not Found: /deletepost/
+WARNING:django.request:Bad Request: /deletepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\search_user_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\migrations\0011_postlikes.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\migrations\0011_postlikes.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\urls.py changed, reloading.
+ERROR:django.request:Internal Server Error: /likepost/
+Traceback (most recent call last):
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\socialtalkBE\myapp\views\like_post_views.py", line 41, in post
+    post_instance = Posts.objects.get(id=id)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\CHANDRA KUMAR RAJA\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+socialtalkBE.models.Posts.DoesNotExist: Posts matching query does not exist.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+WARNING:django.request:Not Found: /likepost/
+WARNING:django.request:Bad Request: /likepost/
+WARNING:django.request:Bad Request: /likepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /likepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /likepost/
+WARNING:django.request:Bad Request: /likepost/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\like_post_views.py changed, reloading.
+WARNING:django.request:Bad Request: /likepost/
+WARNING:django.request:Unauthorized: /login/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\socialtalkBE\models.py changed, reloading.
+WARNING:django.request:Bad Request: /signup/
+INFO:django.utils.autoreload:C:\Projects\socialtalkBE\myapp\views\auth_views.py changed, reloading.
+WARNING:django.request:Unauthorized: /commentpost/
+WARNING:django.request:Not Found: /likepost/
